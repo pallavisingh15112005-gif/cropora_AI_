@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+.streamlit/secrets.toml
+credentials.json
+
+# Data & models
+data/raw/
+data/processed/
+data/*.db
+data/*.db-wal
+data/*.db-shm
+models/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
